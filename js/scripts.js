@@ -1,6 +1,8 @@
 // BUSINESS LOGIC
 
-
+function robotSpeak(humanInput) {
+  for (let i = 0; i < humanInput.length(); i++);
+}
 
 // UI LOGIC
 $(document).ready(function() {
@@ -10,6 +12,7 @@ $(document).ready(function() {
    console.log(output);
   // parse user input parseInt($("input#input").val());
 
+  $("#output").append(`<p>${output}</p>`);
     event.preventDefault();
   });
 });
