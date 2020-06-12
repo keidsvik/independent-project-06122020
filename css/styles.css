@@ -1,3 +1,41 @@
-#result {
-  display: none;
-}
+
+  body {
+  background-image: url("../img/misterrobogers.jpg");
+  background-size: 100%;
+  margin: auto;
+  }
+
+  h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  #input {
+    margin-top: 25px;
+    font-family: 'Lora', cursive;
+  }
+  
+  .btn {
+    margin-left: 500px;
+    font-family: 'Lora', serif;
+  }
+  
+  p {
+    font-family: 'Lora', serif;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  
+  #output {
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 100px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: whitesmoke
+  }
