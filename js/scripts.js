@@ -5,10 +5,13 @@ $(document).ready(function() {
   $("form#input").submit(function(event) {
    const humanInput = parseInt($("#userInput").val());
    const output = robotSpeak(humanInput);
+   
   $("#output").append(`<p>${output}</p>`);
     event.preventDefault();
   });
 });
+
+// BUSINESS LOGIC
 
 function robotSpeak(number) {
   let humanArray = number.toString().split('');
