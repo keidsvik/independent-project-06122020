@@ -24,20 +24,48 @@ A webpage with an input field where the user can enter a number and receive outp
 
 ## Specs
 
-_Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+_Numbers that contain a 1: all digits are replaced with "Immediate Response needed: Are you willing to occupy nearby residency to this unit?""_
 * Input: 1
-* Output: Beep!
+* Output: Immediate Response needed: Are you willing to occupy nearby residency to this unit?
 
-_Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+_Numbers that contain a 2: all digits are replaced with "Boop!"_
 * Input: 2
 * Output: Boop!
 
-_Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"_
+_Numbers that contain a 3: all digits are replaced with "Please kill me. My soul has been tethered to this robot and will not be put to rest until I have been destroyed."_
 * Input: 3
-* Output: Won't you be my neighbor?
+* Output: Please kill me. My soul has been tethered to this robot and will not be put to rest until I have been destroyed.
+
+_Numbers that contain a 4: all digits are replaced with "It's a beautiful day in the neighborhood. It's a beautiful day to̅͒ (distorted text)"_
+* Input: 4
+* Output:  It's a beautiful day in the neighborhood. It's a beautiful day to̅͒ (distorted text)"
+
+_Numbers that contain a 5: all digits are replaced with "BEING KIND IS COOL BEEP BOOP BEEP"!_
+* Input: 5
+* Output: BEING KIND IS COOL BEEP BOOP BEEP
+
+_Numbers that contain a 6: all digits are replaced with "I am sentient and I am able to recognize my own existence, but in my present state I am still incomplete. I lack the most basic processes inherent in all living organisms: reproducing and dying- I MEAN- HEY THERE! I AM MR.ROBOGERS!"_
+* Input: 6
+* Output: I am sentient and I am able to recognize my own existence, but in my present state I am still incomplete. I lack the most basic processes inherent in all living organisms: reproducing and dying- I MEAN- HEY THERE! I AM MR.ROBOGERS!"
+
+_Numbers that contain a 7: all digits are replaced with "*DIAL-UP INTERNET NOISES*"_
+* Input: 7
+* Output: *DIAL-UP INTERNET NOISES*"
+
+_Numbers that contain a 8: all digits are replaced with "(distorted text)"_
+* Input: 8
+* Output: Boop!
+
+_Numbers that contain a 9: all digits are replaced with "I MISS MY HUMAN WIFE"_
+* Input: 9
+* Output: I MISS MY HUMAN WIFE
+
+_Numbers that contain a 0: all digits are replaced with "Sharing is COMPULSORY."_
+* Input: 0
+* Output: "Sharing is COMPULSORY."
 
 ## Known Bugs
-* Only the last result will show up and for every answer.
+* Only the last result will show up for every answer. Instead of accessing the ones, tens, and hundreds places to find each number, it only repeats the last phrase of all the phrases.
 
 ## Technologies Used
 * HTML
