@@ -1,21 +1,15 @@
-$(document).ready(function() {
-  $('form#input').submit(function(event) {
-    const humanInput = parseInt($("#input").val());
-    const roboOutput = robogersSays(humanInput);
-    //run robogersOutput function on humanInput
+// BUSINESS LOGIC
 
-  // collect user input
-  // parse user input
-  // make function for user input
-  // put user input into a string
-  // 
+
+
+// UI LOGIC
+$(document).ready(function() {
+  $("form#input").submit(function(event) {
+   const humanInput = $("#userInput").val();
+   const output = humanInput;
+   console.log(output);
+  // parse user input parseInt($("input#input").val());
 
     event.preventDefault();
   });
 });
-
-function robogersSays(number) {
-  const numArray = number.toString().split("")
-  //create a string out of the input by using .toString() and use .split("") to create an array out of the string by putting "" around each number
-  if numArray 
-}
