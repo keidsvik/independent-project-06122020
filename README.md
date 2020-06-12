@@ -37,7 +37,7 @@ _Numbers that contain a 3: all digits are replaced (all digits) with "Won't you 
 * Output: Won't you be my neighbor?
 
 ## Known Bugs
-* If you receive one of the three results and go back to change a single answer, after hitting submit the second time the "nothing" branch with the Gene Wilder gif will open alongside your original result.
+* Only the last result will show up and for every answer.
 
 ## Technologies Used
 * HTML
