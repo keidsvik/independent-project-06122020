@@ -1,4 +1,4 @@
-# Programming Quiz | Independent Project 06/05/2020
+# Mr.Robogers | Independent Project 06/05/2020
 
 #### Let Mr.Robogers teach you about sharing and friendship by entering a number.
 
